@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }
 
 resource "aws_vpc" "main" {
@@ -47,7 +47,7 @@ resource "aws_internet_gateway" "main" {
 
   tags = {
     "Name"  = "Main"
-    "Owner" = "CloudAcademy"
+    "Owner" = "Satya"
   }
 }
 
@@ -84,7 +84,7 @@ resource "aws_security_group" "webserver" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = [var.workstation_ip]
+    cidr_blocks = var.workstation_ip
   }
 
   ingress {

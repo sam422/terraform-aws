@@ -14,13 +14,14 @@ variable "availability_zones" {
 }
 
 variable "workstation_ip" {
-  type = string
+  type    = list(string)
+  default = ["121.200.7.106/32"]
 }
 
 variable "amis" {
   type = map(any)
   default = {
-    "us-east-2" : "ami-08e6b682a466887dd"
-    "us-west-2" : "ami-0af6e2b3ada249943"
+    "us-east-1" : "ami-029c64b3c205e6cce"
+    "us-west-2" : "ami-031dea1a744251b51"
   }
 }
