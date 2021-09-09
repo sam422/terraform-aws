@@ -14,7 +14,7 @@ variable "availability_zones" {
 }
 
 variable "workstation_ip" {
-  type = list(string)
+  type = string
 }
 
 variable "amis" {
