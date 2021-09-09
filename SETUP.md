@@ -6,7 +6,12 @@
 
 **SETUP**
 1. Configure AWS access keys by using aws cli command **_aws configure_**
+
 ![image](https://user-images.githubusercontent.com/19540015/132687778-cde6158b-5efb-4799-a867-3263ef70a2c5.png)
 2. Install teraform plugin in visual studio code
+
 ![image](https://user-images.githubusercontent.com/19540015/132688307-0aa95341-f20e-4289-843f-66d1b4cb0111.png)
 
+3. Replace the keyname with your keyname in terraform.tfvars file https://github.com/sam422/terraform-aws/blob/main/exercises/exercise1/terraform.tfvars
+4. Change region in main.tf and availability zones in terraform.tfvars as per your choice
+5. You can also choose your own cidr block for vpc and subnets
