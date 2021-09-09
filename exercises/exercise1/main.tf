@@ -119,9 +119,8 @@ resource "aws_instance" "web" {
   #userdata
   user_data = <<EOF
 #!/bin/bash
-apt-get -y update
-apt-get -y install nginx
-service nginx start
+sudo amazon-linux-extras install nginx1 -y
+sudo /usr/sbin/nginx
 echo fin v1.00!
 EOF
 
