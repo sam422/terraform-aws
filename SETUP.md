@@ -17,3 +17,8 @@
 3. Replace the keyname with your keyname in terraform.tfvars file https://github.com/sam422/terraform-aws/blob/main/exercises/exercise1/terraform.tfvars
 4. Change region in main.tf and availability zones in terraform.tfvars as per your choice
 5. You can also choose your own cidr block for vpc and subnets
+
+6. If having issues var.workstation_ip, declare the workstation ip in variables.tf
+
+![image](https://user-images.githubusercontent.com/19540015/132692111-accdf3a1-de8c-4334-b5cc-ba0642ab81e6.png)
+
