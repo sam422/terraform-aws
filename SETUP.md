@@ -8,6 +8,8 @@
 1. Configure AWS access keys by using aws cli command **_aws configure_**
 
 ![image](https://user-images.githubusercontent.com/19540015/132687778-cde6158b-5efb-4799-a867-3263ef70a2c5.png)
+
+
 2. Install teraform plugin in visual studio code
 
 ![image](https://user-images.githubusercontent.com/19540015/132688307-0aa95341-f20e-4289-843f-66d1b4cb0111.png)
