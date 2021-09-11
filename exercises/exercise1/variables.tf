@@ -14,8 +14,7 @@ variable "availability_zones" {
 }
 
 variable "workstation_ip" {
-  type    = list(string)
-  default = ["10.10.10.10/32"]
+  type = string
 }
 
 variable "amis" {
